@@ -22,6 +22,7 @@ public class Ex138477_2 {
             if(q.size() > k){ // k번재 이후부터는 최하위 순위 꺼냄.
                 q.poll();
             }
+            answer[i] = q.peek();
         }
 
 
